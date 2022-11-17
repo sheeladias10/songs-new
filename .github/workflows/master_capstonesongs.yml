@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'capstoneSongs'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22A8257294E14237828A753C36869931 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E15C33579BAD490596127BB70E2CCB93 }}
           package: '*.jar'
