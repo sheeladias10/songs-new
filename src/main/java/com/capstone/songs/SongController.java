@@ -8,12 +8,16 @@ import java.util.List;
 
 @RestController
 public class SongController {
-
     @Autowired
     TrackRepository trackRepository;
 
     @GetMapping("/songs")
     public List<Song> getSongs(){
         return trackRepository.getSongs();
+    }
+
+    @GetMapping("/greetings")
+    public String getGreetings(){
+        return "Hello World";
     }
 }
